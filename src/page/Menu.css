@@ -1,0 +1,50 @@
+.menu-container {
+    max-width: 800px;
+    margin: 50px auto;
+    padding: 0 20px;
+  }
+  
+  .menu-container h1 {
+    font-size: 36px;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .menu-items {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+  
+  .menu-item {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 20px;
+    min-width: 200px;
+    max-width: 300px;
+  }
+  
+  .menu-item-header {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+  }
+  
+  .menu-item-header h2 {
+    font-size: 24px;
+    font-weight: bold;
+    margin: 0;
+  }
+  
+  .menu-item-header p {
+    font-size: 24px;
+    font-weight: bold;
+    margin: 0;
+  }
+  
+  .menu-item-description {
+    font-size: 18px;
+    margin: 0;
+  }
+  
